@@ -6,3 +6,5 @@ Repo di prova per TwinCat3, vedi:
 
 ## file .gitignore completo anche per HMI:
 [Westwood85/gitignore-for-twincat-3](https://github.com/Westwood85/gitignore-for-twincat-3/blob/main/.gitignore)
+
+fai una copia del file `.gitignore` direttamente nella cartella del progetto Twincat, quella che contiene anche la cartella `.git`
