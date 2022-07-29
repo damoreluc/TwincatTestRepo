@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <POU Name="FB_TestFunctionBlock" Id="{54f8d70b-56f3-45a6-a290-b5f3e4987475}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_TestFunctionBlock
+VAR
+	nCounter:	LINT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[nCounter := nCounter + 1;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
