@@ -4,10 +4,12 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	counter1	:	FB_TestFunctionBlock;
+	counter2	:	FB_TestFunctionBlock;	
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[counter1();
+counter2();
 ]]></ST>
     </Implementation>
   </POU>
